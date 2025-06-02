@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
             navList.classList.toggle('active');
         });
 
-        // Fechar o menu ao clicar em um item (apenas para mobile)
+        /
         const navLinks = document.querySelectorAll('.nav-list li a');
         navLinks.forEach(link => {
             link.addEventListener('click', function() {
